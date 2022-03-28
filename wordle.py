@@ -52,6 +52,8 @@ for i in range(6):
 #else input not in (valid_words)):
 #    print('not in wordlist try something else(:.')
 
+if (solved == False):
+    print(f'sorry, the answer was : {anwser}')
 
 
     
