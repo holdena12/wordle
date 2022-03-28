@@ -1,10 +1,10 @@
 import random
-
+imprort wordle.words
 def splitWord(word):
     return [char for char in word]
 
  # read dictionary and assign to lines
-with open('dict.txt') as f:
+with open('wordle.words') as f:
     lines = f.readlines()
 f.close()
 
